@@ -1,0 +1,277 @@
+2025-01-18 20:29:23 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-18 20:29:23 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-18 20:29:23 - INFO -  * Restarting with stat
+2025-01-18 20:29:24 - WARNING -  * Debugger is active!
+2025-01-18 20:29:24 - INFO -  * Debugger PIN: 141-408-214
+2025-01-18 20:29:33 - INFO - Valid email syntax and MX records: transport@backmarket.com
+2025-01-18 20:29:35 - INFO - Accept-all domain detected: transport@backmarket.com
+2025-01-18 20:29:35 - INFO - Bulk validation result for transport@backmarket.com: Accept-all domain.
+2025-01-18 20:29:36 - ERROR - Unexpected error while validating email companyinfo@mail.bankrate.com: The DNS response does not contain an answer to the question: mail.bankrate.com. IN MX
+2025-01-18 20:29:36 - INFO - Bulk validation failed for companyinfo@mail.bankrate.com: Unexpected error: The DNS response does not contain an answer to the question: mail.bankrate.com. IN MX
+2025-01-18 20:29:36 - INFO - Valid email syntax and MX records: webmaster@bankrate.com
+2025-01-18 20:29:38 - INFO - Unknown email status: webmaster@bankrate.com
+2025-01-18 20:29:38 - INFO - Bulk validation result for webmaster@bankrate.com: Unable to categorize the email.
+2025-01-18 20:29:38 - ERROR - Unexpected error while validating email webmaster@mail.bankrate.com: The DNS response does not contain an answer to the question: mail.bankrate.com. IN MX
+2025-01-18 20:29:38 - INFO - Bulk validation failed for webmaster@mail.bankrate.com: Unexpected error: The DNS response does not contain an answer to the question: mail.bankrate.com. IN MX
+2025-01-18 20:30:12 - ERROR - Unexpected error while validating email feedback@mybankrate.com: The resolution lifetime expired after 17.009 seconds: Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.
+2025-01-18 20:30:12 - INFO - Bulk validation failed for feedback@mybankrate.com: Unexpected error: The resolution lifetime expired after 17.009 seconds: Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.
+2025-01-18 20:30:13 - INFO - Valid email syntax and MX records: legal@bankrate.com
+2025-01-18 20:30:15 - INFO - Unknown email status: legal@bankrate.com
+2025-01-18 20:30:15 - INFO - Bulk validation result for legal@bankrate.com: Unable to categorize the email.
+2025-01-18 20:30:15 - INFO - Valid email syntax and MX records: customersupport@bankrate.com
+2025-01-18 20:30:17 - INFO - Unknown email status: customersupport@bankrate.com
+2025-01-18 20:30:17 - INFO - Bulk validation result for customersupport@bankrate.com: Unable to categorize the email.
+2025-01-18 20:30:17 - INFO - Valid email syntax and MX records: team@bark.com
+2025-01-18 20:30:20 - INFO - Unknown email status: team@bark.com
+2025-01-18 20:30:20 - INFO - Bulk validation result for team@bark.com: Unable to categorize the email.
+2025-01-18 20:30:20 - INFO - Valid email syntax and MX records: contact@bark.com
+2025-01-18 20:30:22 - INFO - Unknown email status: contact@bark.com
+2025-01-18 20:30:22 - INFO - Bulk validation result for contact@bark.com: Unable to categorize the email.
+2025-01-18 20:30:23 - INFO - Valid email syntax and MX records: privacy@bark.com
+2025-01-18 20:30:25 - INFO - Unknown email status: privacy@bark.com
+2025-01-18 20:30:25 - INFO - Bulk validation result for privacy@bark.com: Unable to categorize the email.
+2025-01-18 20:30:25 - INFO - Valid email syntax and MX records: privacy@bdo.ca
+2025-01-18 20:30:28 - INFO - Unknown email status: privacy@bdo.ca
+2025-01-18 20:30:28 - INFO - Bulk validation result for privacy@bdo.ca: Unable to categorize the email.
+2025-01-18 20:30:28 - INFO - Valid email syntax and MX records: cbyford@bdo.ca
+2025-01-18 20:30:30 - INFO - Unknown email status: cbyford@bdo.ca
+2025-01-18 20:30:30 - INFO - Bulk validation result for cbyford@bdo.ca: Unable to categorize the email.
+2025-01-18 20:30:30 - INFO - Valid email syntax and MX records: privacy@beefree.io
+2025-01-18 20:30:33 - INFO - Unknown email status: privacy@beefree.io
+2025-01-18 20:30:33 - INFO - Bulk validation result for privacy@beefree.io: Unable to categorize the email.
+2025-01-18 20:30:34 - INFO - Valid email syntax and MX records: support@benchling.com
+2025-01-18 20:30:35 - INFO - Accept-all domain detected: support@benchling.com
+2025-01-18 20:30:35 - INFO - Bulk validation result for support@benchling.com: Accept-all domain.
+2025-01-18 20:30:36 - INFO - Valid email syntax and MX records: contact@benchling.com
+2025-01-18 20:30:38 - INFO - Accept-all domain detected: contact@benchling.com
+2025-01-18 20:30:38 - INFO - Bulk validation result for contact@benchling.com: Accept-all domain.
+2025-01-18 20:30:38 - INFO - Valid email syntax and MX records: privacy@benchling.com
+2025-01-18 20:30:41 - INFO - Accept-all domain detected: privacy@benchling.com
+2025-01-18 20:30:41 - INFO - Bulk validation result for privacy@benchling.com: Accept-all domain.
+2025-01-18 20:30:41 - INFO - Valid email syntax and MX records: inquiries@benchling.com
+2025-01-18 20:30:43 - INFO - Accept-all domain detected: inquiries@benchling.com
+2025-01-18 20:30:43 - INFO - Bulk validation result for inquiries@benchling.com: Accept-all domain.
+2025-01-18 20:30:43 - INFO - Valid email syntax and MX records: press@benchling.com
+2025-01-18 20:30:45 - INFO - Accept-all domain detected: press@benchling.com
+2025-01-18 20:30:45 - INFO - Bulk validation result for press@benchling.com: Accept-all domain.
+2025-01-18 20:30:46 - INFO - Valid email syntax and MX records: legal@benchling.com
+2025-01-18 20:30:48 - INFO - Accept-all domain detected: legal@benchling.com
+2025-01-18 20:30:48 - INFO - Bulk validation result for legal@benchling.com: Accept-all domain.
+2025-01-18 20:30:49 - INFO - Valid email syntax and MX records: support@biorender.com
+2025-01-18 20:30:51 - INFO - Unknown email status: support@biorender.com
+2025-01-18 20:30:51 - INFO - Bulk validation result for support@biorender.com: Unable to categorize the email.
+2025-01-18 20:30:51 - INFO - Valid email syntax and MX records: info@biorender.com
+2025-01-18 20:30:53 - INFO - Unknown email status: info@biorender.com
+2025-01-18 20:30:53 - INFO - Bulk validation result for info@biorender.com: Unable to categorize the email.
+2025-01-18 20:30:53 - INFO - Valid email syntax and MX records: info@bitmex.com
+2025-01-18 20:30:55 - INFO - Accept-all domain detected: info@bitmex.com
+2025-01-18 20:30:55 - INFO - Bulk validation result for info@bitmex.com: Accept-all domain.
+2025-01-18 20:30:55 - INFO - Valid email syntax and MX records: support@bitmex.com
+2025-01-18 20:30:57 - INFO - Accept-all domain detected: support@bitmex.com
+2025-01-18 20:30:57 - INFO - Bulk validation result for support@bitmex.com: Accept-all domain.
+2025-01-18 20:30:57 - INFO - 127.0.0.1 - - [18/Jan/2025 20:30:57] "POST /validate_bulk HTTP/1.1" 200 -
+2025-01-18 20:35:36 - INFO - Valid email syntax and MX records: webmaster@yopmail.com
+2025-01-18 20:35:38 - INFO - Accept-all domain detected: webmaster@yopmail.com
+2025-01-18 20:35:38 - INFO - Email categorization result: webmaster@yopmail.com - Accept-all domain.
+2025-01-18 20:35:38 - INFO - 127.0.0.1 - - [18/Jan/2025 20:35:38] "POST /validate HTTP/1.1" 200 -
+2025-01-18 20:38:01 - INFO -  * Detected change in 'D:\\python e-mail validator\\with-logging-email-validator.py', reloading
+2025-01-18 20:38:01 - INFO -  * Restarting with stat
+2025-01-18 20:38:01 - WARNING -  * Debugger is active!
+2025-01-18 20:38:01 - INFO -  * Debugger PIN: 141-408-214
+2025-01-18 20:38:02 - INFO -  * Detected change in 'D:\\python e-mail validator\\with-logging-email-validator.py', reloading
+2025-01-18 20:38:02 - INFO -  * Restarting with stat
+2025-01-18 20:38:03 - WARNING -  * Debugger is active!
+2025-01-18 20:38:03 - INFO -  * Debugger PIN: 141-408-214
+2025-01-18 20:38:17 - INFO - Valid email syntax and MX records: webmaster@yopmail.com
+2025-01-18 20:38:17 - INFO - Disposable email domain detected: webmaster@yopmail.com
+2025-01-18 20:38:17 - INFO - Email categorization result: webmaster@yopmail.com - Disposable email domain.
+2025-01-18 20:38:17 - INFO - 127.0.0.1 - - [18/Jan/2025 20:38:17] "POST /validate HTTP/1.1" 200 -
+2025-01-18 20:38:58 - INFO - Valid email syntax and MX records: rhythmsharma808@gmail.com
+2025-01-18 20:39:00 - INFO - Unknown email status: rhythmsharma808@gmail.com
+2025-01-18 20:39:00 - INFO - Email categorization result: rhythmsharma808@gmail.com - Unable to categorize the email.
+2025-01-18 20:39:00 - INFO - 127.0.0.1 - - [18/Jan/2025 20:39:00] "POST /validate HTTP/1.1" 200 -
+2025-01-18 20:40:57 - INFO -  * Detected change in 'D:\\python e-mail validator\\with-logging-email-validator.py', reloading
+2025-01-18 20:40:57 - INFO -  * Restarting with stat
+2025-01-18 20:40:57 - WARNING -  * Debugger is active!
+2025-01-18 20:40:57 - INFO -  * Debugger PIN: 141-408-214
+2025-01-18 20:41:01 - INFO - Valid email syntax and MX records: rhythmsharma808@gmail.com
+2025-01-18 20:41:03 - INFO - Valid email domain detected: rhythmsharma808@gmail.com
+2025-01-18 20:41:03 - INFO - Email categorization result: rhythmsharma808@gmail.com - Valid email address.
+2025-01-18 20:41:03 - INFO - 127.0.0.1 - - [18/Jan/2025 20:41:03] "POST /validate HTTP/1.1" 200 -
+2025-01-18 20:41:12 - INFO - Valid email syntax and MX records: transport@backmarket.com
+2025-01-18 20:41:15 - INFO - Accept-all domain detected: transport@backmarket.com
+2025-01-18 20:41:15 - INFO - Bulk validation result for transport@backmarket.com: Accept-all domain.
+2025-01-18 20:41:16 - ERROR - Unexpected error while validating email companyinfo@mail.bankrate.com: The DNS response does not contain an answer to the question: mail.bankrate.com. IN MX
+2025-01-18 20:41:16 - INFO - Bulk validation failed for companyinfo@mail.bankrate.com: Unexpected error: The DNS response does not contain an answer to the question: mail.bankrate.com. IN MX
+2025-01-18 20:41:16 - INFO - Valid email syntax and MX records: webmaster@bankrate.com
+2025-01-18 20:41:18 - INFO - Valid email domain detected: webmaster@bankrate.com
+2025-01-18 20:41:18 - INFO - Bulk validation result for webmaster@bankrate.com: Valid email address.
+2025-01-18 20:41:18 - ERROR - Unexpected error while validating email webmaster@mail.bankrate.com: The DNS response does not contain an answer to the question: mail.bankrate.com. IN MX
+2025-01-18 20:41:18 - INFO - Bulk validation failed for webmaster@mail.bankrate.com: Unexpected error: The DNS response does not contain an answer to the question: mail.bankrate.com. IN MX
+2025-01-18 20:41:53 - ERROR - Unexpected error while validating email feedback@mybankrate.com: The resolution lifetime expired after 17.016 seconds: Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.
+2025-01-18 20:41:53 - INFO - Bulk validation failed for feedback@mybankrate.com: Unexpected error: The resolution lifetime expired after 17.016 seconds: Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.
+2025-01-18 20:41:53 - INFO - Valid email syntax and MX records: legal@bankrate.com
+2025-01-18 20:41:55 - INFO - Valid email domain detected: legal@bankrate.com
+2025-01-18 20:41:55 - INFO - Bulk validation result for legal@bankrate.com: Valid email address.
+2025-01-18 20:41:55 - INFO - Valid email syntax and MX records: customersupport@bankrate.com
+2025-01-18 20:41:57 - INFO - Valid email domain detected: customersupport@bankrate.com
+2025-01-18 20:41:57 - INFO - Bulk validation result for customersupport@bankrate.com: Valid email address.
+2025-01-18 20:41:58 - INFO - Valid email syntax and MX records: team@bark.com
+2025-01-18 20:42:00 - INFO - Valid email domain detected: team@bark.com
+2025-01-18 20:42:00 - INFO - Bulk validation result for team@bark.com: Valid email address.
+2025-01-18 20:42:00 - INFO - Valid email syntax and MX records: contact@bark.com
+2025-01-18 20:42:02 - INFO - Valid email domain detected: contact@bark.com
+2025-01-18 20:42:02 - INFO - Bulk validation result for contact@bark.com: Valid email address.
+2025-01-18 20:42:02 - INFO - Valid email syntax and MX records: privacy@bark.com
+2025-01-18 20:42:05 - INFO - Valid email domain detected: privacy@bark.com
+2025-01-18 20:42:05 - INFO - Bulk validation result for privacy@bark.com: Valid email address.
+2025-01-18 20:42:05 - INFO - Valid email syntax and MX records: privacy@bdo.ca
+2025-01-18 20:42:07 - INFO - Valid email domain detected: privacy@bdo.ca
+2025-01-18 20:42:07 - INFO - Bulk validation result for privacy@bdo.ca: Valid email address.
+2025-01-18 20:42:07 - INFO - Valid email syntax and MX records: cbyford@bdo.ca
+2025-01-18 20:42:09 - INFO - Valid email domain detected: cbyford@bdo.ca
+2025-01-18 20:42:09 - INFO - Bulk validation result for cbyford@bdo.ca: Valid email address.
+2025-01-18 20:42:09 - INFO - Valid email syntax and MX records: privacy@beefree.io
+2025-01-18 20:42:11 - INFO - Valid email domain detected: privacy@beefree.io
+2025-01-18 20:42:11 - INFO - Bulk validation result for privacy@beefree.io: Valid email address.
+2025-01-18 20:42:11 - INFO - Valid email syntax and MX records: support@benchling.com
+2025-01-18 20:42:14 - INFO - Accept-all domain detected: support@benchling.com
+2025-01-18 20:42:14 - INFO - Bulk validation result for support@benchling.com: Accept-all domain.
+2025-01-18 20:42:14 - INFO - Valid email syntax and MX records: contact@benchling.com
+2025-01-18 20:42:16 - INFO - Accept-all domain detected: contact@benchling.com
+2025-01-18 20:42:16 - INFO - Bulk validation result for contact@benchling.com: Accept-all domain.
+2025-01-18 20:42:17 - INFO - Valid email syntax and MX records: privacy@benchling.com
+2025-01-18 20:42:19 - INFO - Accept-all domain detected: privacy@benchling.com
+2025-01-18 20:42:19 - INFO - Bulk validation result for privacy@benchling.com: Accept-all domain.
+2025-01-18 20:42:19 - INFO - Valid email syntax and MX records: inquiries@benchling.com
+2025-01-18 20:42:21 - INFO - Accept-all domain detected: inquiries@benchling.com
+2025-01-18 20:42:21 - INFO - Bulk validation result for inquiries@benchling.com: Accept-all domain.
+2025-01-18 20:42:21 - INFO - Valid email syntax and MX records: press@benchling.com
+2025-01-18 20:42:23 - INFO - Accept-all domain detected: press@benchling.com
+2025-01-18 20:42:23 - INFO - Bulk validation result for press@benchling.com: Accept-all domain.
+2025-01-18 20:42:24 - INFO - Valid email syntax and MX records: legal@benchling.com
+2025-01-18 20:42:26 - INFO - Accept-all domain detected: legal@benchling.com
+2025-01-18 20:42:26 - INFO - Bulk validation result for legal@benchling.com: Accept-all domain.
+2025-01-18 20:42:26 - INFO - Valid email syntax and MX records: support@biorender.com
+2025-01-18 20:42:28 - INFO - Valid email domain detected: support@biorender.com
+2025-01-18 20:42:28 - INFO - Bulk validation result for support@biorender.com: Valid email address.
+2025-01-18 20:42:28 - INFO - Valid email syntax and MX records: info@biorender.com
+2025-01-18 20:42:30 - INFO - Valid email domain detected: info@biorender.com
+2025-01-18 20:42:30 - INFO - Bulk validation result for info@biorender.com: Valid email address.
+2025-01-18 20:42:30 - INFO - Valid email syntax and MX records: info@bitmex.com
+2025-01-18 20:42:32 - INFO - Accept-all domain detected: info@bitmex.com
+2025-01-18 20:42:32 - INFO - Bulk validation result for info@bitmex.com: Accept-all domain.
+2025-01-18 20:42:33 - INFO - Valid email syntax and MX records: support@bitmex.com
+2025-01-18 20:42:34 - INFO - Accept-all domain detected: support@bitmex.com
+2025-01-18 20:42:34 - INFO - Bulk validation result for support@bitmex.com: Accept-all domain.
+2025-01-18 20:42:34 - INFO - 127.0.0.1 - - [18/Jan/2025 20:42:34] "POST /validate_bulk HTTP/1.1" 200 -
+2025-01-18 20:44:16 - INFO -  * Detected change in 'D:\\python e-mail validator\\with-parallelism-email-validation.py', reloading
+2025-01-18 20:44:16 - INFO -  * Restarting with stat
+2025-01-18 20:44:16 - WARNING -  * Debugger is active!
+2025-01-18 20:44:16 - INFO -  * Debugger PIN: 141-408-214
+2025-01-18 20:44:24 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-18 20:44:24 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-18 20:44:24 - INFO -  * Restarting with stat
+2025-01-18 20:44:24 - WARNING -  * Debugger is active!
+2025-01-18 20:44:24 - INFO -  * Debugger PIN: 141-408-214
+2025-01-18 20:44:28 - INFO - Valid email syntax and MX records: transport@backmarket.com
+2025-01-18 20:44:30 - INFO - Accept-all domain detected: transport@backmarket.com
+2025-01-18 20:44:30 - INFO - Bulk validation result for transport@backmarket.com: Accept-all domain.
+2025-01-18 20:44:31 - ERROR - Unexpected error while validating email companyinfo@mail.bankrate.com: The DNS response does not contain an answer to the question: mail.bankrate.com. IN MX
+2025-01-18 20:44:31 - INFO - Bulk validation failed for companyinfo@mail.bankrate.com: Unexpected error: The DNS response does not contain an answer to the question: mail.bankrate.com. IN MX
+2025-01-18 20:44:31 - INFO - Valid email syntax and MX records: webmaster@bankrate.com
+2025-01-18 20:44:33 - INFO - Valid email domain detected: webmaster@bankrate.com
+2025-01-18 20:44:33 - INFO - Bulk validation result for webmaster@bankrate.com: Valid email address.
+2025-01-18 20:44:35 - ERROR - Unexpected error while validating email webmaster@mail.bankrate.com: The DNS response does not contain an answer to the question: mail.bankrate.com. IN MX
+2025-01-18 20:44:35 - INFO - Bulk validation failed for webmaster@mail.bankrate.com: Unexpected error: The DNS response does not contain an answer to the question: mail.bankrate.com. IN MX
+2025-01-18 20:45:00 - INFO - Valid email syntax and MX records: rhythmsharma808@gmail.com
+2025-01-18 20:45:03 - INFO - Valid email domain detected: rhythmsharma808@gmail.com
+2025-01-18 20:45:03 - INFO - Email categorization result: rhythmsharma808@gmail.com - Valid email address.
+2025-01-18 20:45:03 - INFO - 127.0.0.1 - - [18/Jan/2025 20:45:03] "POST /validate HTTP/1.1" 200 -
+2025-01-18 20:45:09 - ERROR - Unexpected error while validating email feedback@mybankrate.com: The resolution lifetime expired after 17.014 seconds: Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.
+2025-01-18 20:45:09 - INFO - Bulk validation failed for feedback@mybankrate.com: Unexpected error: The resolution lifetime expired after 17.014 seconds: Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.; Server Do53:192.168.130.121@53 answered The DNS operation timed out.
+2025-01-18 20:45:10 - INFO - Valid email syntax and MX records: legal@bankrate.com
+2025-01-18 20:45:12 - INFO - Valid email domain detected: legal@bankrate.com
+2025-01-18 20:45:12 - INFO - Bulk validation result for legal@bankrate.com: Valid email address.
+2025-01-18 20:45:12 - INFO - Valid email syntax and MX records: customersupport@bankrate.com
+2025-01-18 20:45:14 - INFO - Valid email domain detected: customersupport@bankrate.com
+2025-01-18 20:45:14 - INFO - Bulk validation result for customersupport@bankrate.com: Valid email address.
+2025-01-18 20:45:14 - INFO - Valid email syntax and MX records: team@bark.com
+2025-01-18 20:45:16 - INFO - Valid email domain detected: team@bark.com
+2025-01-18 20:45:16 - INFO - Bulk validation result for team@bark.com: Valid email address.
+2025-01-18 20:45:17 - INFO - Valid email syntax and MX records: contact@bark.com
+2025-01-18 20:45:19 - INFO - Valid email domain detected: contact@bark.com
+2025-01-18 20:45:19 - INFO - Bulk validation result for contact@bark.com: Valid email address.
+2025-01-18 20:45:19 - INFO - Valid email syntax and MX records: privacy@bark.com
+2025-01-18 20:45:22 - INFO - Valid email domain detected: privacy@bark.com
+2025-01-18 20:45:22 - INFO - Bulk validation result for privacy@bark.com: Valid email address.
+2025-01-18 20:45:22 - INFO - Valid email syntax and MX records: privacy@bdo.ca
+2025-01-18 20:45:24 - INFO - Valid email domain detected: privacy@bdo.ca
+2025-01-18 20:45:24 - INFO - Bulk validation result for privacy@bdo.ca: Valid email address.
+2025-01-18 20:45:24 - INFO - Valid email syntax and MX records: cbyford@bdo.ca
+2025-01-18 20:45:26 - INFO - Valid email domain detected: cbyford@bdo.ca
+2025-01-18 20:45:26 - INFO - Bulk validation result for cbyford@bdo.ca: Valid email address.
+2025-01-18 20:45:27 - INFO - Valid email syntax and MX records: privacy@beefree.io
+2025-01-18 20:45:29 - INFO - Valid email domain detected: privacy@beefree.io
+2025-01-18 20:45:29 - INFO - Bulk validation result for privacy@beefree.io: Valid email address.
+2025-01-18 20:45:29 - INFO - Valid email syntax and MX records: support@benchling.com
+2025-01-18 20:45:31 - INFO - Accept-all domain detected: support@benchling.com
+2025-01-18 20:45:31 - INFO - Bulk validation result for support@benchling.com: Accept-all domain.
+2025-01-18 20:45:31 - INFO - Valid email syntax and MX records: contact@benchling.com
+2025-01-18 20:45:34 - INFO - Accept-all domain detected: contact@benchling.com
+2025-01-18 20:45:34 - INFO - Bulk validation result for contact@benchling.com: Accept-all domain.
+2025-01-18 20:45:34 - INFO - Valid email syntax and MX records: privacy@benchling.com
+2025-01-18 20:45:36 - INFO - Accept-all domain detected: privacy@benchling.com
+2025-01-18 20:45:36 - INFO - Bulk validation result for privacy@benchling.com: Accept-all domain.
+2025-01-18 20:45:37 - INFO - Valid email syntax and MX records: inquiries@benchling.com
+2025-01-18 20:45:39 - INFO - Accept-all domain detected: inquiries@benchling.com
+2025-01-18 20:45:39 - INFO - Bulk validation result for inquiries@benchling.com: Accept-all domain.
+2025-01-18 20:45:39 - INFO - Valid email syntax and MX records: press@benchling.com
+2025-01-18 20:45:41 - INFO - Accept-all domain detected: press@benchling.com
+2025-01-18 20:45:41 - INFO - Bulk validation result for press@benchling.com: Accept-all domain.
+2025-01-18 20:45:41 - INFO - Valid email syntax and MX records: legal@benchling.com
+2025-01-18 20:45:43 - INFO - Accept-all domain detected: legal@benchling.com
+2025-01-18 20:45:43 - INFO - Bulk validation result for legal@benchling.com: Accept-all domain.
+2025-01-18 20:45:43 - INFO - Valid email syntax and MX records: support@biorender.com
+2025-01-18 20:45:45 - INFO - Valid email domain detected: support@biorender.com
+2025-01-18 20:45:45 - INFO - Bulk validation result for support@biorender.com: Valid email address.
+2025-01-18 20:45:45 - INFO - Valid email syntax and MX records: info@biorender.com
+2025-01-18 20:45:47 - INFO - Valid email domain detected: info@biorender.com
+2025-01-18 20:45:47 - INFO - Bulk validation result for info@biorender.com: Valid email address.
+2025-01-18 20:45:47 - INFO - Valid email syntax and MX records: info@bitmex.com
+2025-01-18 20:45:49 - INFO - Accept-all domain detected: info@bitmex.com
+2025-01-18 20:45:49 - INFO - Bulk validation result for info@bitmex.com: Accept-all domain.
+2025-01-18 20:45:50 - INFO - Valid email syntax and MX records: support@bitmex.com
+2025-01-18 20:45:52 - INFO - Accept-all domain detected: support@bitmex.com
+2025-01-18 20:45:52 - INFO - Bulk validation result for support@bitmex.com: Accept-all domain.
+2025-01-18 20:45:52 - INFO - 127.0.0.1 - - [18/Jan/2025 20:45:52] "POST /validate_bulk HTTP/1.1" 200 -
+2025-01-18 20:51:18 - INFO -  * Detected change in 'D:\\python e-mail validator\\with-parallelism-email-validation.py', reloading
+2025-01-18 20:51:18 - INFO -  * Restarting with stat
+2025-01-18 20:51:18 - WARNING -  * Debugger is active!
+2025-01-18 20:51:18 - INFO -  * Debugger PIN: 141-408-214
+2025-01-18 20:51:29 - INFO -  * Detected change in 'D:\\python e-mail validator\\with-parallelism-email-validation.py', reloading
+2025-01-18 20:51:29 - INFO -  * Restarting with stat
+2025-01-18 20:51:30 - WARNING -  * Debugger is active!
+2025-01-18 20:51:30 - INFO -  * Debugger PIN: 141-408-214
+2025-01-18 20:51:40 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-18 20:51:40 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-18 20:51:40 - INFO -  * Restarting with stat
+2025-01-18 20:51:40 - WARNING -  * Debugger is active!
+2025-01-18 20:51:40 - INFO -  * Debugger PIN: 141-408-214
+2025-01-18 20:52:06 - INFO - Valid email syntax and MX records: rhythmsharma808@gmail.com
+2025-01-18 20:52:09 - INFO - Valid email domain detected: rhythmsharma808@gmail.com
+2025-01-18 20:52:09 - INFO - Email categorization result: rhythmsharma808@gmail.com - Valid email address.
+2025-01-18 20:52:09 - INFO - 127.0.0.1 - - [18/Jan/2025 20:52:09] "POST /validate HTTP/1.1" 200 -
+2025-01-18 20:52:14 - INFO -  * Detected change in 'D:\\python e-mail validator\\with-parallelism-email-validation.py', reloading
+2025-01-18 20:52:15 - INFO -  * Restarting with stat
+2025-01-18 20:52:15 - WARNING -  * Debugger is active!
+2025-01-18 20:52:15 - INFO -  * Debugger PIN: 141-408-214
+2025-01-18 20:52:20 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-18 20:52:20 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-18 20:52:20 - INFO -  * Restarting with stat
+2025-01-18 20:52:20 - WARNING -  * Debugger is active!
+2025-01-18 20:52:20 - INFO -  * Debugger PIN: 141-408-214
