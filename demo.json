@@ -25,9 +25,9 @@
     { "id": 24, "email": "support@bitmex.com" }
   ]
 
-//   emails = ["transport@backmarket.com","companyinfo@mail.bankrate.com", "webmaster@bankrate.com","webmaster@mail.bankrate.com",
-// "feedback@mybankrate.com","legal@bankrate.com","customersupport@bankrate.com","team@bark.com","contact@bark.com", "privacy@bark.com" 
-// ,"privacy@bdo.ca","cbyford@bdo.ca","privacy@beefree.io","support@benchling.com","contact@benchling.com","privacy@benchling.com",
-// "inquiries@benchling.com","press@benchling.com","legal@benchling.com" ,"support@biorender.com", "info@biorender.com" ,"info@bitmex.com",
-// "support@bitmex.com"
-// ]
+  emails = ["transport@backmarket.com","companyinfo@mail.bankrate.com", "webmaster@bankrate.com","webmaster@mail.bankrate.com",
+"feedback@mybankrate.com","legal@bankrate.com","customersupport@bankrate.com","team@bark.com","contact@bark.com", "privacy@bark.com" 
+,"privacy@bdo.ca","cbyford@bdo.ca","privacy@beefree.io","support@benchling.com","contact@benchling.com","privacy@benchling.com",
+"inquiries@benchling.com","press@benchling.com","legal@benchling.com" ,"support@biorender.com", "info@biorender.com" ,"info@bitmex.com",
+"support@bitmex.com"
+]

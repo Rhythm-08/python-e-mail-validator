@@ -4,6 +4,10 @@ import smtplib
 from email_validator import validate_email, EmailNotValidError
 import logging
 from flask import Flask, request, jsonify
+import socks
+import random
+import time
+import socket
 
 # Flask App Setup
 app = Flask(__name__)
@@ -16,8 +20,16 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S"  # Date format
 )
 logger = logging.getLogger()
+
 # Caching for DNS and Results
 dns_cache = {}
+
+# Proxy List Setup (for example purposes)
+proxy_list = ["proxy1:1080", "proxy2:1080"]  # Replace with actual proxy IPs and ports
+
+def get_random_proxy():
+    """Select a random proxy from the list."""
+    return random.choice(proxy_list) if proxy_list else None
 
 def validate_email_syntax(email):
     """Validate email syntax."""
@@ -49,9 +61,23 @@ def check_domain_mx(domain):
         logger.warning(f"MX record lookup failed for {domain}: {str(e)}")
         return None
 
+def check_reverse_dns(ip):
+    """Check if the IP has a valid reverse DNS (PTR) record."""
+    try:
+        return socket.gethostbyaddr(ip)[0]
+    except socket.herror:
+        return None
+
 def smtp_check(email, mx_host):
     """Perform SMTP validation for the email."""
     try:
+        # Use a random proxy if available
+        proxy = get_random_proxy()
+        if proxy:
+            host, port = proxy.split(':')
+            socks.set_default_proxy(socks.SOCKS5, host, int(port))
+            socks.wrapmodule(smtplib)
+
         server = smtplib.SMTP(mx_host, timeout=5)
         server.helo()
         server.mail('test@example.com')
@@ -95,6 +121,9 @@ def validate_single_email(email):
     if not mx_host:
         return {"status": "invalid", "email": email, "reason": "No MX records found.", "message": "Domain has no MX records."}
 
+    # Throttle requests to avoid overloading mail servers
+    time.sleep(random.uniform(0.5, 2.0))  # Sleep between 0.5 to 2 seconds before checking SMTP
+
     smtp_result = smtp_check(email, mx_host)
     return smtp_result
 
@@ -133,7 +162,6 @@ def validate_single():
 
     result = validate_single_email(email)
     return jsonify(result)
-
 
 if __name__ == "__main__":
     app.run(debug=True)
